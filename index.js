@@ -5,6 +5,8 @@ const cheerio = require('cheerio');
 
 var app = express();
 
+app.set('port', (process.env.PORT || 5000));
+
 app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/public'));
@@ -44,6 +46,6 @@ app.post('/downloadVideo',(req,res) => {
 
 });
 
-app.listen(3001,()=>{
-    console.log('fire up browser');
+app.listen(app.get('port'),()=>{
+    console.log('Working at', app.get('port'));
 });
