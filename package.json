@@ -1,0 +1,11 @@
+{
+  "name": "saveitred",
+  "version": "0.0.1",
+  "description": "Reddit Video Downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Prashant Bhardwaj",
+  "license": "MIT"
+}
