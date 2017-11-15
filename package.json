@@ -4,6 +4,7 @@
   "description": "Reddit Video Downloader",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "node index.js"
   },
   "author": "Prashant Bhardwaj",
